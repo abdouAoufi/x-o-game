@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img-play {
+  width: 2.1875rem;
+  height: 2.1875rem;
+}
