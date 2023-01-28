@@ -57,9 +57,34 @@ main {
 }
 
 .btn-play {
-  width: 5rem;
-  height: 5rem;
-  border: 1px solid salmon;
+  width: 7.5rem;
+  height: 7.5rem;
   display: grid;
   place-items: center;
+  background-color: rgb(32, 54, 64);
+  border-radius: 12px;
+}
+
+.result {
+  padding: 0.5rem 1.2rem;
+  border-radius: 12px;
+  width: 7.5rem;
+  text-align: center;
+}
+
+.result h5 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#first-result {
+  background-color: rgb(59, 195, 190);
+}
+
+#second-result {
+  background-color: rgb(169, 191, 201);
+}
+
+#third-result {
+  background-color: rgb(241, 176, 69);
 }
