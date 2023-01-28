@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +8,7 @@
 
 body {
   background-color: rgb(26, 42, 50);
+  font-family: "Fredoka One", cursive;
 }
 
 main {
@@ -38,7 +41,6 @@ main {
 }
 
 #container {
-  width: 35%;
 }
 
 #nav {
@@ -105,4 +107,24 @@ main {
 
 #third-result {
   background-color: rgb(241, 176, 69);
+}
+
+@media screen and (max-width: 500px) {
+  #container {
+    padding: 0 2rem;
+  }
+  .btn-play {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+
+  .result {
+    width: 5.5rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .result h5 {
+  
+    font-size: .8rem;
+  }
 }
