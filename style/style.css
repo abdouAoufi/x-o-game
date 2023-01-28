@@ -4,7 +4,15 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(26, 42, 50);
+}
+
 main {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
 }
 
 .img-o {
@@ -30,11 +38,11 @@ main {
 }
 
 #container {
-  border: 1px solid magenta;
   width: 35%;
 }
 
 #nav {
+  padding: 1rem 1rem;
 }
 
 #nav img {
@@ -46,7 +54,9 @@ main {
   padding: 0.4rem 1.35rem;
   font-weight: 800;
   color: white;
+  border: 0;
   background-color: rgb(32, 54, 64);
+  box-shadow: 9px 9px 12px 0px rgba(0, 0, 0, 0.75);
   border-radius: 12px;
 }
 /* rgb(26,42,50) rgb(32,54,64)*/
@@ -56,6 +66,13 @@ main {
   border-radius: 12px;
 }
 
+#btn-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  gap: 1.5rem;
+}
+
 .btn-play {
   width: 7.5rem;
   height: 7.5rem;
@@ -63,6 +80,7 @@ main {
   place-items: center;
   background-color: rgb(32, 54, 64);
   border-radius: 12px;
+  box-shadow: 9px 9px 12px 0px rgba(0, 0, 0, 0.75);
 }
 
 .result {
